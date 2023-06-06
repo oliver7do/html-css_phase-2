@@ -23,86 +23,12 @@
         box-sizing: border-box;
     }
 
-    html,
-    body,
-    div,
-    span,
-    applet,
-    object,
-    iframe,
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6,
-    p,
-    blockquote,
-    pre,
-    a,
-    abbr,
-    acronym,
-    address,
-    big,
-    cite,
-    code,
-    del,
-    dfn,
-    em,
-    img,
-    ins,
-    kbd,
-    q,
-    s,
-    samp,
-    small,
-    strike,
-    strong,
-    sub,
-    sup,
-    tt,
-    var,
-    b,
-    u,
-    i,
-    center,
-    dl,
-    dt,
-    dd,
-    ol,
-    ul,
-    li,
-    fieldset,
-    form,
-    label,
-    legend,
-    table,
-    caption,
-    tbody,
-    tfoot,
-    thead,
-    tr,
-    th,
-    td,
-    article,
-    aside,
-    canvas,
-    details,
-    embed,
-    figure,
-    figcaption,
-    footer,
-    header,
-    hgroup,
-    menu,
-    nav,
-    output,
-    ruby,
-    section,
-    summary,
-    time,
-    mark,
-    audio,
+    html,body,div, span,applet,object,iframe, h1,h2,h3, h4, h5, h6, p, blockquote, pre,
+    a,abbr, acronym, address, big, cite,code, del, dfn, em, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var, b, u,i, center, dl, dt, dd, ol, ul, li,
+    fieldset, form,label,legend,table, caption, tbody, tfoot, thead,tr,th,td, article,
+    aside, canvas, details, embed,figure,figcaption, footer, header,hgroup,menu, nav,
+    output, ruby, section, summary, time, mark, audio,
     video {
         margin: 0;
         padding: 0;
@@ -191,6 +117,8 @@
         border-bottom: 8px solid #6ACAFC;
         text-align: center;
         padding: 15px;
+        display: flex;
+        align-content: center;
         
     }
 
@@ -216,6 +144,10 @@
         background: #2c3e50;
         color: white;
     }
+    ul {
+        display: flex;
+        text-align: center;
+    }
 
     /**************FIN NAV********************/
     /*FAIRE LE ZONING AVEC DES HAUTEUR ET LARGEUR AVANT DE PLACER LES ELEMENTS DANS LES ZONES POUR ENSUITE SUPPRIMER LES HAUTEURS*/
@@ -224,17 +156,213 @@
         width: 1000px;
         margin: 0 auto;
     }
-
-    aside {
+    /* aside {
         height: 250px;
         background: #A6D6C3;
-    }
-
+    } */
     section {
         margin-top: 50px;
         /*    background: #DAF7A6;*/
         padding: 20px;
     }
+         /* premier zoning - commencer*/
+
+    .zone{
+        background-color: #f7f39a;
+        height: 60px;
+        text-align: center;
+    }
+    .zone12 {
+        display: flex;
+    }
+    .zone1 {
+       width: 13rem;
+       height: 25rem;
+       background: #a3de82;
+       text-align: center;
+    }
+    .zone2{
+        width: 48rem;
+        height: 25rem;
+        background: #38817a;
+        text-align: center;
+    }
+   /* premier zoning - fin*/
+   /*deuxième zoning - commencer*/
+ .zone3 {
+     background-color: #f8f5e4;
+     height: 60px;
+     width: 600px;
+     text-align: center;
+     margin: auto;
+ }
+
+ .zone456 {
+     display: flex;
+ }
+ .zone4 {
+     width: 9rem;
+     height: 25rem;
+     background: #10828c;
+     text-align: center;
+    margin-left: 180px;
+ }
+ .zone5 {
+     width: 28rem;
+     height: 25rem;
+     background: #0d3046;
+     text-align: center;
+    margin: auto;
+ }
+ .zone6 {
+     width: 9rem;
+     height: 25rem;
+     background: #10828c;
+     text-align: center;
+    margin-right: 180px;  
+ }
+ .blanc {
+    color: #ffff;
+ }
+ 
+   /* deuxième zoning - fin*/
+   /*troisième zoning - commencer*/
+ .zone78 {
+     display: flex;
+     margin-left: 60px;
+     
+ }
+ .zone7 {
+     width: 27rem;
+     height: 25rem;
+     background: #215d67;
+     text-align: center;
+ }
+ .zone8 {
+     width: 27rem;
+     height: 25rem;
+     background: #659968;
+     text-align: center;
+    
+ }
+ .zone9 {
+     width: 54rem;
+     height: 5rem;
+     background: #d9eab4;
+     text-align: end;
+     margin-left: 60px;
+ }
+   /* troisième zoning - fin*/
+   /*quatrième zoning - commencer*/
+ .zone10 {
+     width: 55rem;
+     height: 8rem;
+     background: #adadad;
+     text-align: center;
+     margin-left: 37px;
+ }
+ .zone11 {
+     width: 55rem;
+     height: 4rem;
+     background: #71adb5;
+     text-align: center;
+     margin-left: 37px;
+ }
+ .zon12 {
+     width: 55rem;
+     height: 1rem;
+     background: #68cbfb;
+     text-align: end;
+     margin-left: 37px;
+ }
+  .zone13 {
+      width: 55rem;
+      height: 27rem;
+      background:#176e82;
+      text-align: center;
+        margin-left: 36px;
+         border: 15px solid white;
+  }
+  .zone14 {
+    width: 55rem;
+        height: 5rem;
+        background:#0d3346;
+        text-align: end;
+        margin-left: 37px;
+  }
+  .bord {
+    border: 2px solid black;
+    margin: auto;
+  }
+   /* quatrième zoning - fin*/
+   /*cinquième zoning - commencer*/
+.zone15 {
+    width: 59,5rem;
+    height: 8rem;
+    background: #f8d770;
+    text-align: center;
+    /* margin-left: 37px; */
+}
+
+.zone16 {
+    width: 59,5rem;
+    height: 4rem;
+    background:#d7bc6b;
+    text-align: center;
+    /* margin-left: 37px; */
+}
+
+.zon17 {
+    width: 59,5rem;
+    height: 1rem;
+    background: #bf9c13;
+    text-align: end;
+    /* margin-left: 37px; */
+}
+
+.quadre12{
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    padding: 15px;
+    background-color: #ffa500;
+}
+.quadre1{
+    background-color: #d7bc6b;
+    height: auto;
+    width: 50%;
+}
+.quadre2 {
+    background-color: #fce389;
+    height: auto;
+    width: 50%;
+}
+.quadre34{
+    display: flex;
+    width: 100%;
+}
+.quadre3 {
+background-color: #fce389;
+height: auto;
+width: 50%;
+
+}
+.quadre4 {
+ background-color: #d7bc6b;
+height: auto;
+width: 50%;
+}
+.zone19 {
+    width: 59,5rem;
+    height: 5rem;
+    background: #f8d770;
+    text-align: end;
+    /* margin-left: 37px; */
+}
+   /* cinquième zoning - fin*/
+   /*sixième zoning - commencer*/
+
+   /* sixième zoning - fin*/
 
     footer {
         background: #2980b9;
