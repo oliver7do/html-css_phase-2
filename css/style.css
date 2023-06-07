@@ -362,6 +362,67 @@ width: 50%;
    /* cinquième zoning - fin*/
    /*sixième zoning - commencer*/
 
+   /*début de la première div*/
+.zone202122 {
+    display: flex;
+}
+.zone20{
+    background-color: #223562;
+    width: 200px;
+    height: 200px;
+}
+.zone21{
+    background-color: #3E578F;
+    width: 600px;
+    height: 200px;
+}
+.zone22{
+    background-color: #223562;
+    width: 200px;
+    height: 200px;
+}
+    /*fin de la première div*/
+
+.quadre2 {
+    background-color: #fce389;
+    height: auto;
+    width: 50%;
+}
+.quadre34{
+    display: flex;
+    width: 100%;
+}
+.quadre3 {
+background-color: #fce389;
+height: auto;
+width: 50%;
+
+}
+.quadre4 {
+ background-color: #d7bc6b;
+height: auto;
+width: 50%;
+}
+.quadre2 {
+    background-color: #fce389;
+    height: auto;
+    width: 50%;
+}
+.quadre34{
+    display: flex;
+    width: 100%;
+}
+.quadre3 {
+background-color: #fce389;
+height: auto;
+width: 50%;
+
+}
+.quadre4 {
+ background-color: #d7bc6b;
+height: auto;
+width: 50%;
+}
    /* sixième zoning - fin*/
 
     footer {
